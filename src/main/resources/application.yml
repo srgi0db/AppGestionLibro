@@ -4,14 +4,12 @@ server:
 spring:
   application:
     name: ventas-libros
-  security:
-    filter:
-      dispatcher-types: request
+
   datasource:
-    url: jdbc:mysql://localhost:3306/db_appbiblioteca?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Lima
-    username: root
-    password: mysql
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres?sslmode=require
+    username: postgres.scwfwapgdacnabkbcqdp
+    password: XmhI0BKUq0knFSQ6sgreTyXP
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
