@@ -12,8 +12,8 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: update
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+ddl-auto: validate
+database-platform: org.hibernate.dialect.PostgreSQLDialect
   sql:
     init:
       mode: never
