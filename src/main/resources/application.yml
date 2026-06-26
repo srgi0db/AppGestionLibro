@@ -5,11 +5,10 @@ server:
 spring:
   application:
     name: ventas-libros
-
   datasource:
-    url: jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres?sslmode=require
-    username: postgres.scwfwapgdacnabkbcqdp
-    password: XmhI0BKUq0knFSQ6sgreTyXP
+    url: jdbc:postgresql://viaduct.proxy.rlwy.net:PUERTO/railway
+    username: postgres
+    password: aTyZlwYmdPfwHgfqksuXtTujJtOOBHwH
     driver-class-name: org.postgresql.Driver
 
   jpa:
