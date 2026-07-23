@@ -6,9 +6,9 @@ spring:
   application:
     name: ventas-libros
   datasource:
-    url: jdbc:postgresql://reseau.proxy.rlwy.net:46315/railway
+    url: jdbc:postgresql://db.scwfwapgdacnabkbcqdp.supabase.co:5432/postgres
     username: postgres
-    password: aTyZlwYmdPfwHgfqksuXtTujJtOOBHwH
+    password: TVaOMIpeDvBget
     driver-class-name: org.postgresql.Driver
 
   jpa:
