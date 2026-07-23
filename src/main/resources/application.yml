@@ -7,15 +7,17 @@ spring:
     name: ventas-libros
 
   datasource:
-    url: jdbc:postgresql://db.scwfwapgdacnabkbcqdp.supabase.co:5432/postgres?sslmode=require
-    username: postgres
+    url: jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres?sslmode=require
+    username: postgres.scwfwapgdacnabkbcqdp
     password: TVaOMIpeDvBget
     driver-class-name: org.postgresql.Driver
 
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
   sql:
     init:
