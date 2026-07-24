@@ -35,15 +35,6 @@ Sistema full stack de gestión de venta de libros con autenticación, roles de u
 
 ---
 
-## 🔐 Acceso de administrador (demo)
-
-⚠️ Solo para pruebas del sistema
-
--- Email: admin@ventaslibros.com  
--- Password: Admin12345  
-
----
-
 ## ⚙️ Funcionalidades
 
 ## 📘 Gestión de libros
